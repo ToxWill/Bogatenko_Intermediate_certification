@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 683bea41e16ec634883a09ac7e21008e, type: 3}
-  m_Name: Level1 Rule
+  m_Name: Level2 Rule
   m_EditorClassIdentifier: 
-  backgroundColor: {r: 0, g: 0.6, b: 0.92549026, a: 1}
-  finishLineColor: {r: 1, g: 1, b: 1, a: 1}
+  backgroundColor: {r: 0.92549026, g: 0.2627451, b: 0, a: 1}
+  finishLineColor: {r: 0.3647059, g: 1, b: 0, a: 1}
   snakeBodyPartSizeRelativeToColumn: 0.3
-  levelLength: 100
-  nbColumn: 5
-  distanceBetweenWallBlocks: {x: 10, y: 20}
+  levelLength: 150
+  nbColumn: 8
+  distanceBetweenWallBlocks: {x: 10, y: 15}
   distanceBetweenRandomBlocks: {x: 5, y: 10}
-  blocksLifeRange: {x: 1, y: 18}
-  lowLifeBlockColor: {r: 1, g: 0.6156863, b: 0, a: 1}
-  highLifeBlockColor: {r: 0.9921569, g: 0.019607844, b: 0, a: 1}
-  distanceBetweenSpheres: {x: 2, y: 8}
-  sphereLifeNb: {x: 1, y: 10}
+  blocksLifeRange: {x: 5, y: 15}
+  lowLifeBlockColor: {r: 0, g: 1, b: 0.7686275, a: 1}
+  highLifeBlockColor: {r: 0.09411766, g: 0.4901961, b: 0, a: 1}
+  distanceBetweenSpheres: {x: 2, y: 5}
+  sphereLifeNb: {x: 4, y: 15}
   sphereSizeRelativeToColumn: 0.3
   wallSize: {x: 1, y: 5}
   wallSizeRelativeToColumn: 0.1

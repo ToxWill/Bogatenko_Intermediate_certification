@@ -313,9 +313,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daea005727f07f649ba346c4bfcad572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rules: {fileID: 11400000, guid: 15aae67f56ee4394a93bc706f0e670b9, type: 2}
-  blockPrefab: {fileID: 3413169711621217981, guid: 197ab4299f47af540b23f38abbbcaebd, type: 3}
-  spherePrefab: {fileID: 5088866949165165380, guid: 9701e46e514e91443ab3e1a3c2150445, type: 3}
+  rules: {fileID: 11400000, guid: cd6ad1c0dc73fd348af6f59352f397dd, type: 2}
+  blockPrefab: {fileID: 3413169711621217981, guid: cce4ca1e56b63c54eb1b164774d0f494, type: 3}
+  spherePrefab: {fileID: 5088866949165165380, guid: d535a7dae1c0fc645a594f0790f6f152, type: 3}
   wallPrefab: {fileID: 8967375680894973073, guid: d919b604e0bf7bb47ae8416702d9795d, type: 3}
 --- !u!4 &76593737
 Transform:
@@ -2224,10 +2224,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1eaf02584b8bd46b381674dc0886ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spherePrefab: {fileID: 6597999732333990311, guid: 5778bf4653f2387409e1b0e13b4863de, type: 3}
+  spherePrefab: {fileID: 6597999732333990311, guid: 52d954edf2e37e346b4ea0541b6bc624, type: 3}
   pickUpSound: {fileID: 141068653}
-  snakeVariables: {fileID: 11400000, guid: 12d898d8d4e28f74c9faa8ebe67c88c7, type: 2}
-  snakeColors: {fileID: 11400000, guid: b6d14a5310537874290da2a95d076ed6, type: 2}
+  snakeVariables: {fileID: 11400000, guid: 59bf6e196c5f9be44b19a8b4c3c47ea2, type: 2}
+  snakeColors: {fileID: 11400000, guid: a94d32002b9494f49aff4ef1d45b75df, type: 2}
   poolSize: 100
 --- !u!4 &2128096959
 Transform:

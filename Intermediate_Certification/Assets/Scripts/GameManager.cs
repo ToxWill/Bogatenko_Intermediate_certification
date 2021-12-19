@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 	Image onLevelPanel = null;
 	Button replayBtn = null;
 	Button nextLvlBtn = null;
+	AudioSource musicBackground = null;
 
 	Slider completionPercent;
 	public GameState State { get; private set; }
@@ -40,6 +41,13 @@ public class GameManager : MonoBehaviour
 
 	void Start()
 	{
+		musicBackground = GameObject.Find("Music").GetComponent<AudioSource>();
+		if (musicBackground)
+		{
+			musicBackground.enabled = true;
+			musicBackground.volume = 0.345f;
+		}
+
 		onLevelPanel = GameObject.Find("PanelBackground").GetComponent<Image>();
 		if (onLevelPanel)
         {
@@ -117,6 +125,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (onLevelFinishedTxt && replayBtn && highscoreTxt && highscoreImg)
 		{
+			musicBackground.enabled = false;
 			onLevelPanel.enabled = true;
 			onLevelFinishedTxt.enabled = true;
 			onLevelFinishedTxt.text = msg;

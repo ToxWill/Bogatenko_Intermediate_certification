@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class SnakeController : MonoBehaviour
 {
 	public GameObject spherePrefab;
-
+	public AudioSource pickUpSound;
 	[SerializeField] SnakeVariables snakeVariables;
 	[SerializeField] SnakeColors snakeColors;
 
@@ -145,6 +145,7 @@ public class SnakeController : MonoBehaviour
 	public void AddSphere(int nb)
 	{
 		ToggleParts(CurrentLength, CurrentLength + nb, true);
+		pickUpSound.Play();
 	}
 
 	public void RemoveFirstPart()
